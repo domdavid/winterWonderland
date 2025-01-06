@@ -184,6 +184,14 @@ While you have created the array of SnowFlake objects, nothing in Frame is using
 			snow[i].paint(pen);
 		}
 ```
+#### Using enhanced for loop
+```java
+		//snow array traversal - you can use a traditional for-loop
+		//or an enhanced for loop here. 
+		for(SnowFlake obj : snow) { //for each SnowFlake object in the snow array
+			obj.paint(pen);
+		}
+```
 # Additional Objects - writing more Java classes
 Now that you have set up SnowFlake objects, expand on your knowledge of setting up objects on the Frame by adding additional classes that will make up the scenery. Below are some ideas.
 * Tree.java : Can you create a class that allows you to draw trees?
