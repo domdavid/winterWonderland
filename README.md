@@ -29,9 +29,9 @@ The provided repository is an Eclipse-based project. However, it is straightforw
 
 ## Frame.java - Runner File
 <details >
-
 <summary><h3>paint method</h3></summary>
 The paint method in the Frame.java fill will handle painting any object or arrays of objects on the JFrame! You can change the frameWidth or frameHeight at the top of the file (instance vars) to change the overall size of the JFrame that you see. This file also has a main method so you can run the project using this file or the provided Runner file.  
+
 ```java
 	/*
 	 * Method for painting on the JFrame
@@ -64,11 +64,11 @@ public class Frame extends JPanel implements ActionListener, MouseListener, KeyL
 	
 	//Add your objects or array variables here!
 	SnowFlake flake = new SnowFlake();
-.
-.
-.
+
+	//additional code not shown
 ```
 </details>
+
 ## SnowFlake.java
 This is an example java class that contains a paint method that can be called/invoked in the Frame class' paint method. This allows any additional types of objects you create to handle their own way to paint on the screen!
 ```java
