@@ -266,7 +266,7 @@ public class Tree
 ```
 In the example above, we now have another class called Tree.java. The Tree class uses fillPolygon which requires two 1D arrays that correspond to the vertexes of the polygon representing the Tree object. In this case, it's a simple triangle that is drawn. Note that the order in which to list the vertexes should be in a clockwise or counterclockwise order. I suggest running your code often as you add points for simple debugging and guess-and-check in this process. 
 
-Can you use AI for this one? See if you can prompt an LLM such as ChatGPT, CoPilot, or Gemini if these are allowed tools for your school. For example, prompt the LLMs for coordinate points. Be sure to provide the code to the LLMs so that they use the existing code instead of re-writing everything that may not easily integrate into the setup. 
+Can you use AI for this one? See if you can prompt an LLM such as ChatGPT, CoPilot, or Gemini if these are allowed tools for your school. For example, prompt the LLMs for coordinate points. Be sure to provide the code to the LLMs so that they use the existing code instead of re-writing everything that may not easily integrate into the setup. \\
 ![Screenshot](./screenshot2.gif)
 <details open>
 
