@@ -42,9 +42,7 @@ public class Frame extends JPanel implements ActionListener, MouseListener, KeyL
 		
 	}
 	
-	public static void main(String[] arg) {
-		Frame f = new Frame();
-	}
+
 	
 	/* constructors help init instance variables
 	 * including arrays!
@@ -159,11 +157,19 @@ public class Frame extends JPanel implements ActionListener, MouseListener, KeyL
  		
 	}
 
+ 	// ----- No updates needed below ----------
 	/*
 	 * Timer Animation - repaints window every 16ms
 	 */
 	public void actionPerformed(ActionEvent arg0) {
 		repaint();
+	}
+	
+	/*
+	 * Main method so that this file is runnable. An instance of the Frame is created which will make the JFrame visible.
+	 */
+	public static void main(String[] arg) {
+		new Frame();
 	}
 
 
