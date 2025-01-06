@@ -138,3 +138,22 @@ When you re-run the program, nothing should have changed so far! Why? The paint 
 	}
 ```
 Once you have updated the paint method for SnowFlake, re-running the program should result in a SnowFlake object that is drawn at a random location on the JFrame with a different size each time. 
+
+## Frame.java updates
+### Array of SnowFlakes
+Once you can draw one SnowFlake that is placed randomly on the screen, you are ready to create a bunch of them on the screen! Let's do this by creating an array of SnowFlake objects in Frame.java. Go towards the top of the JFrame class (where instance variables are typically located) and add the array.
+
+```java
+	//main JFrame properties/attributes
+	public static int frameWidth = 900;
+	public static int frameHeight = 600;
+	private Color background = Color.black;
+	
+	//Add your objects or array variables here!
+	SnowFlake flake = new SnowFlake();
+	
+	//Array of SnowFlake objects -- NEW CODE
+	private int numSnow = 100; //added so we can change the amount of snow easily
+	SnowFlake[] snow = new SnowFlake[numSnow];
+```
+You can also introduce another instance variable for the size of the array which can make resizing and playing around with the amount of snow much easier. 
