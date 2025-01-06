@@ -12,7 +12,7 @@ This project provides a basic Java Swing setup that enables drawing directly on 
 </details>
 
 <details open>
-<summary> ## Setup </summary>
+<summary> <h2> Setup <h2></summary>
 
 The provided repository is an Eclipse-based project. However, it is straightforward to set up, so you should be able to get started with your IDE!
 
