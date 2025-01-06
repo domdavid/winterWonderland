@@ -22,8 +22,11 @@ The paint method in the Frame.java fill will handle painting any object or array
 		
 		//draw the background of the JFrame
 		pen.setColor(background);
-		pen.fillRect(0, 0, frameWidth, frameHeight);
-		
-		
+		pen.fillRect(0, 0, frameWidth, frame height);
+
+		//example - call the paint method of a SnowFlake object
+		//pass the pen object as an argument
+		flake.paint(pen);
+				
 	}
 
