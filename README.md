@@ -186,4 +186,4 @@ Now that you have set up SnowFlake objects, expand on your knowledge of setting 
 ####
 Each class will need a paint method similar to SnowFlake. The instance variables can be different.
 ####
-You might need additional drawing methods for more complex shapes. The one used in SnowFlake is simply drawing an oval :). You may need to play around with fillPolygon. Check out the documentation below.
+You might need additional drawing methods for more complex shapes. The one used in SnowFlake is simply drawing an oval :). You may need to play around with fillPolygon. Check out this [example](https://www.educative.io/answers/what-is-fillpolygon-in-java).
