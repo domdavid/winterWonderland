@@ -22,7 +22,7 @@ The provided repository is an Eclipse-based project. However, it is straightforw
 
 * **Installation**  
   * **Eclipse**: Download the repository as a zip file to import the project into Eclipse. Alternatively, you can clone the repository in Eclipse using the interface.  
-  * **Non-Eclipse**: Start your IDE with a basic Java project. Drag the `Frame.java` and `SnowFlake.java` files into the source folder as you would any Java class file.  
+  * **Non-Eclipse**: Start your IDE with a basic Java project. Drag the `Frame.java` and `SnowFlake.java` files into the source folder as you would any Java class file. <a href = "https://drive.google.com/file/d/1UmBmYMrCJ244yKDSnVXjxmzDOs83DXGQ/view?usp=sharing" Here is a link</a> to the java files. 
     * Run the project with `Runner.java` or `Frame.java`. You should see a JFrame with one oval drawn on the screen. 
 
 </details>
