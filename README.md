@@ -269,9 +269,10 @@ In the example above, we now have another class called Tree.java. The Tree class
 Can you use AI for this one? See if you can prompt an LLM such as ChatGPT, CoPilot, or Gemini if these are allowed tools for your school. For example, prompt the LLMs for coordinate points. Be sure to provide the code to the LLMs so that they use the existing code instead of re-writing everything that may not easily integrate into the setup. 
 
 <details open>
-
+![Screenshot](screeshot2.gif)
 <summary> <h2><mark>Animation - Snow!</mark></h2></summary>
 <h3> SnowFlake - Additional Instance Variables</h3> 
+
 Each SnowFlake is currently drawn at a random location on the JFrame with a different size. What if we want to animate the snow so it falls? Let's add additional instance variables to update the position! At the top of the class, add speedY with a positive value. This will determine how fast the object updates is Y position. In the Paint method, you will then update the y position based on this value. By introducing a variable for the speed, you have room to update this and alter the speed later on as you play with your code. Note, there is an update method that was provided to help you organize updating the variables. You can use it if you wish. The snippet below is incomplete so be sure to add it to the right section of your class. 
 
 ```java
