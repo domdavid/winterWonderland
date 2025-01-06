@@ -178,3 +178,12 @@ While you have created the array of SnowFlake objects, nothing in Frame is using
 			snow[i].paint(pen);
 		}
 ```
+# Additional Objects - writing more Java classes
+Now that you have set up SnowFlake objects, expand on your knowledge of setting up objects on the Frame by adding additional classes that will make up the scenery. Below are some ideas.
+* Tree.java : Can you create a class that allows you to draw trees?
+* SnowMan.java : How about a lovely snowman?
+### Reminders
+####
+Each class will need a paint method similar to SnowFlake. The instance variables can be different.
+####
+You might need additional drawing methods for more complex shapes. The one used in SnowFlake is simply drawing an oval :). You may need to play around with fillPolygon. Check out the documentation below.
