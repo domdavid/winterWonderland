@@ -187,7 +187,7 @@ Now that you have set up SnowFlake objects, expand on your knowledge of setting 
 ####
 Each class will need a paint method similar to SnowFlake. The instance variables can be different.
 ####
-You might need additional [drawing methods](https://www.javatpoint.com/Graphics-in-swing) for more complex shapes. The one used in SnowFlake is simply drawing an oval :). You may need to play around with fillPolygon. Check out this [example](https://www.educative.io/answers/what-is-fillpolygon-in-java).
+You might need additional [drawing methods](https://www.javatpoint.com/Graphics-in-swing) for more complex shapes. The one used in SnowFlake is simply drawing an oval :). You may need to play around with fillPolygon. Check out this [example](https://www.educative.io/answers/what-is-fillpolygon-in-java) or the one shown below.
 ### Example - Additional class
 ```java
 public class Tree
@@ -223,5 +223,5 @@ public class Tree
 ```
 In the example above, we now have another class called Tree.java. The Tree class uses fillPolygon which requires two 1D arrays that correspond to the vertexes of the polygon representing the Tree object. In this case, it's a simple triangle that is drawn. Note that the order in which to list the vertexes should be in a clockwise or counterclockwise order. I suggest running your code often as you add points for simple debugging and guess-and-check in this process. 
 
-Can you use AI for this one? See if you can prompt an LLM such as ChatGPT, CoPilot or Gemini if these are allowed tools for your school. 
+Can you use AI for this one? See if you can prompt an LLM such as ChatGPT, CoPilot, or Gemini if these are allowed tools for your school. 
 
