@@ -10,7 +10,7 @@ The provided repository is an Eclipse-based project. However, it is straightforw
   * Eclipse: Download the repository as a zip file to import the project into Eclipse. Alternatively, you can clone the repository in Eclipse using the interface.
   * Non-Eclipse: Start your IDE with a basic Java project. Drag the Frame.java and SnowFlake.java files into the source folder as you would any Java class file. 
 
-## Frame.javaRun
+## Frame.java - Runner File
 ### paint method
 The paint method in the Frame.java fill will handle painting any object or arrays of objects on the JFrame! You can change the frameWidth or frameHeight at the top of the file (instance vars) to change the overall size of the JFrame that you see. This file also has a main method so you can run the project using this file or the provided Runner file.  
 ```java
@@ -46,3 +46,5 @@ public class Frame extends JPanel implements ActionListener, MouseListener, KeyL
 .
 .
 ```
+## SnowFlake.java
+This is an example object that contains a paint method that can be called/invoked in the Frame's paint method. This allows any additional types of objects you create to handle their own way to paint on the screen!
