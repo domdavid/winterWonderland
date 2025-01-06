@@ -169,4 +169,12 @@ Setup your for loop to iterate through the array of SnowFlake objects. Create a 
 			snow[i] = new SnowFlake();
 		}
 ```
+### Frame paint method
+While you have created the array of SnowFlake objects, nothing in Frame is using the objects to invoke the paint method of each object! We can do this in the Frame's paint method similar to how it's currently invoking the paint method of a singular SnowFlake object!
+		
+		//snow array traversal - you can use a traditional for-loop
+		//or an enhanced for loop here. 
+		for(int i = 0; i < snow.length; i++) {
+			snow[i].paint(pen);
+		}
 
