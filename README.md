@@ -236,7 +236,7 @@ Each SnowFlake is currently drawn at a random location on the JFrame with a diff
 
 ```java
 public class SnowFlake{
-   ... // additional instance variables not shown!
+        // additional instance variables not shown!
 	private int speedY = 2;
 
 	public void update(){
