@@ -81,3 +81,5 @@ public class SnowFlake
 }
 ```
 The class setup can be organized further by breaking up any required variable updates from the painting. The method stub has been provided, but it is not necessary to use. 
+
+# Get Started!
