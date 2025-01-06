@@ -33,6 +33,8 @@ The paint method in the Frame.java fill will handle painting any object or array
 ### Frame instance variables
 The instance variable of the Frame class can be the place where you declare the objects you will draw on the screen! An example SnowFlake object is shown in the starter file.
 ```java
+public class Frame extends JPanel implements ActionListener, MouseListener, KeyListener {
+
 	//main JFrame properties/attributes
 	private int frameWidth = 900;
 	private int frameHeight = 600;
@@ -40,4 +42,7 @@ The instance variable of the Frame class can be the place where you declare the 
 	
 	//Add your objects or array variables here!
 	SnowFlake flake = new SnowFlake();
-
+.
+.
+.
+```
