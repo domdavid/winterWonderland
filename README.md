@@ -12,7 +12,7 @@ The provided repository is an Eclipse-based project. However, it is straightforw
 
 ## Frame.javaRun
 ### paint method
-The paint method in the Frame.java fill will handle painting any object or arrays of objects on the JFrame! You can change the frameWidth or frameHeight at the top of the file (instance vars) to change the overall size of the JFrame that you see. 
+The paint method in the Frame.java fill will handle painting any object or arrays of objects on the JFrame! You can change the frameWidth or frameHeight at the top of the file (instance vars) to change the overall size of the JFrame that you see. This file also has a main method so you can run the project using this file or the provided Runner file.  
 ```java
 	/*
 	 * Method for painting on the JFrame
