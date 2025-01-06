@@ -120,3 +120,20 @@ Add a default constructor in SnowFlake.java that should initialize the instance 
 
 
 ```
+When you re-run the program, nothing should have changed so far! Why? The paint method for SnowFlake is using HARDCODED values for drawing the SnowFLake :). Update the paint method so that it is now using the instance variables you defined! Note that the example below might differ from yours since we could have named our variables differently. 
+```java
+	/*
+	 * Draw your SnowFlake using simple Graphics method
+	 */
+	public void paint(Graphics pen) {
+		//set pen color - remember the default frame background is black
+		pen.setColor(Color.white); //the Color class has some premade colors
+		
+		//example code - replace with your code
+		pen.fillOval(x, y, size, size);
+		
+		
+		
+	}
+```
+Once you have updated the paint method for SnowFlake, re-running the program should result in a SnowFlake object that is drawn at a random location on the JFrame with a different size each time. 
