@@ -11,15 +11,22 @@ This project provides a basic Java Swing setup that enables drawing directly on 
   <li>  Traversing Arrays (AP CSA - Unit 4, Unit 6) (Need practice? Review Unit 4 [here](https://studycs.org/practice/view/4/) and Unit 6 [here](https://studycs.org/practice/view/6/)) </li> </ul>
 </details>
 
-## Setup
+<details open>
+<summary> ## Setup </summary>
+
 The provided repository is an Eclipse-based project. However, it is straightforward to set up, so you should be able to get started with your IDE!
-* Java project files
-  * Frame.java : This will act as the "world" class where you can add objects to paint on the JFrame
-  * SnowFlake.java : An example class that includes a paint method which will be called in the Frame.java paint method.
-* Installation
-  * Eclipse: Download the repository as a zip file to import the project into Eclipse. Alternatively, you can clone the repository in Eclipse using the interface.
-  * Non-Eclipse: Start your IDE with a basic Java project. Drag the Frame.java and SnowFlake.java files into the source folder as you would any Java class file.
-  	* Run the project with Runner.java or Frame.java. You should see a JFrame with one oval drawn on the screen. 
+
+* **Java project files**  
+  * `Frame.java` : This will act as the "world" class where you can add objects to paint on the JFrame  
+  * `SnowFlake.java` : An example class that includes a paint method which will be called in the `Frame.java` paint method.
+
+* **Installation**  
+  * **Eclipse**: Download the repository as a zip file to import the project into Eclipse. Alternatively, you can clone the repository in Eclipse using the interface.  
+  * **Non-Eclipse**: Start your IDE with a basic Java project. Drag the `Frame.java` and `SnowFlake.java` files into the source folder as you would any Java class file.  
+    * Run the project with `Runner.java` or `Frame.java`. You should see a JFrame with one oval drawn on the screen. 
+
+</details>
+
 ## Frame.java - Runner File
 ### paint method
 The paint method in the Frame.java fill will handle painting any object or arrays of objects on the JFrame! You can change the frameWidth or frameHeight at the top of the file (instance vars) to change the overall size of the JFrame that you see. This file also has a main method so you can run the project using this file or the provided Runner file.  
