@@ -88,4 +88,13 @@ Once you have imported the files into your IDE, you can run either the Runner or
 ## SnowFlake.java Updates
 ### Instance Variables
 * Add instance variables to track the position of a SnowFlake object
+```java
+	//Instance variables - what properties does a Snowflake have?
+	private int x;
+	private int y;
+```
 * Add an instance variable for the size of the object (you can have both width and height variables if you want)
+```java
+	//Instance variables - what properties does a Snowflake have?
+	private int size; //can be used for width and height of each "oval" 
+```
