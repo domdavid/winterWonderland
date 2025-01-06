@@ -170,27 +170,40 @@ Recall that when you declare and create an array of objects it will have null re
 #### for loop
 Setup your for loop to iterate through the array of SnowFlake objects. Create a new SnowFlake each iteration and place them in the corresponding index.
 ```java
+	//Frame Constructor
+	public Frame(){
 		//array of SnowFlake objects setup
 		for(int i = 0; i < snow.length; i++) {
 			snow[i] = new SnowFlake();
 		}
+
+		// Additional code not shown
+	}
 ```
 ### Frame.java - paint method
 While you have created the array of SnowFlake objects, nothing in Frame is using the objects to invoke the paint method of each object! We can do this in the Frame's paint method similar to how it's currently invoking the paint method of a singular SnowFlake object!
 ```java
+	public void paint(Graphics pen){
 		//snow array traversal - you can use a traditional for-loop
 		//or an enhanced for loop here. 
 		for(int i = 0; i < snow.length; i++) {
 			snow[i].paint(pen);
 		}
+
+		//additional code not shown
+	}
 ```
 #### Using enhanced for loop
 ```java
+	public void paint(Graphics pen){
 		//snow array traversal - you can use a traditional for-loop
 		//or an enhanced for loop here. 
 		for(SnowFlake obj : snow) { //for each SnowFlake object in the snow array
 			obj.paint(pen);
 		}
+
+		//Additional code not shown
+	}
 ```
 # Additional Objects - writing more Java classes
 Now that you have set up SnowFlake objects, expand on your knowledge of setting up objects on the Frame by adding additional classes that will make up the scenery. Below are some ideas.
