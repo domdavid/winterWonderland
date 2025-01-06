@@ -251,7 +251,7 @@ In the example above, we now have another class called Tree.java. The Tree class
 
 Can you use AI for this one? See if you can prompt an LLM such as ChatGPT, CoPilot, or Gemini if these are allowed tools for your school. For example, prompt the LLMs for coordinate points. Be sure to provide the code to the LLMs so that they use the existing code instead of re-writing everything that may not easily integrate into the setup. 
 
-<details>
+<details open>
 
 <summary> Animation </summary>
 # Animation - Snow
