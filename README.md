@@ -277,5 +277,5 @@ After altering your code, you should see some animation on the screen.
 * What should you do with the y position once the object reaches the bottom of the screen?
 * What would you have to do if you want to add "wind" or some swaying in the x direction?
 
-+ Why does this animate the snow?
+Why does this animate the snow?
 There is a Timer object in the project setup that repaints the screen every ~16milliseconds. If you update any of the properties of the SnowFlake objects or any object, you will see it reflected on the JFrame if they affect the drawing. In our case, if you update the position then the SnowFlake objects are redrawn at the updated position which show up as animation.
