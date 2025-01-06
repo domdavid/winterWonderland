@@ -5,10 +5,10 @@
 <summary> <h2>Introduction</h2></summary>
 This project provides a basic Java Swing setup that enables drawing directly on a JFrame. It also includes a simple timer-based animation system that refreshes the frame, making it easy to create dynamic visual updates for basic animations.<br>
  This project will have you apply your knowledge of the following:  <br>
-  <li> Creating and using Objects (AP CSA - Unit 2) (Need practice? Review [here](https://studycs.org/practice/view/2/)) </li>
+ <ul> <li> Creating and using Objects (AP CSA - Unit 2) (Need practice? Review [here](https://studycs.org/practice/view/2/)) </li>
   <li>  Writing Classes (AP CSA - Unit 5)	(Need practice? Review [here](https://studycs.org/practice/view/5/)) </li>
   <li> Declaring and Creating 1D Arrays of primitives and objects in Java (AP CSA - Unit 6) (Need practice? Review [here](https://studycs.org/practice/view/6/)) </li>
-  <li>  Traversing Arrays (AP CSA - Unit 4, Unit 6) (Need practice? Review Unit 4 [here](https://studycs.org/practice/view/4/) and Unit 6 [here](https://studycs.org/practice/view/6/)) </li>
+  <li>  Traversing Arrays (AP CSA - Unit 4, Unit 6) (Need practice? Review Unit 4 [here](https://studycs.org/practice/view/4/) and Unit 6 [here](https://studycs.org/practice/view/6/)) </li> </ul>
 </details>
 
 ## Setup
