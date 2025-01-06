@@ -86,7 +86,7 @@ The class setup can be organized further by breaking up any required variable up
 ## Running the Project
 Once you have imported the files into your IDE, you can run either the Runner or the Frame class. Both of these files have a main method to create an instance of the JFrame.
 ## SnowFlake.java Updates
-### Instance Variables
+### SnowFlake.java - Instance Variables
 The provided code below is code snippets. Be sure to place only the needed new lines of code.
 * Add instance variables to track the position of a SnowFlake object
 ```java
@@ -104,7 +104,7 @@ public class SnowFlake
 	//Instance variables - what properties does a Snowflake have?
 	private int size; //can be used for width and height of each "oval" 
 ```
-### Constructor
+### SnowFlake.java - Constructor
 Add a default constructor in SnowFlake.java that should initialize the instance variables you just added! Randomize these properties so that each SnowFlake is somewhat unique and placed on a different section on the screen. Use the random formula you were taught in class to generate a reasonable random number for each attribute. It's provided below if you have forgotten. 
 * int randomValue = (int)(Math.random()*(max-min+1))+min; //random int between min and max (inclusive)
 ```java
@@ -120,7 +120,7 @@ Add a default constructor in SnowFlake.java that should initialize the instance 
 
 
 ```
-### paint method
+### SnowFlake.java - paint method
 When you re-run the program, nothing should have changed so far! Why? The paint method for SnowFlake is using HARDCODED values for drawing the SnowFLake :). Update the paint method so that it is now using the instance variables you defined! Note that the example below might differ from yours since we could have named our variables differently. 
 ```java
 	/*
@@ -139,7 +139,7 @@ When you re-run the program, nothing should have changed so far! Why? The paint 
 ```
 Once you have updated the paint method for SnowFlake, re-running the program should result in a SnowFlake object that is drawn at a random location on the JFrame with a different size each time. 
 
-## Frame.java updates
+## Frame.java - updates
 ### Array of SnowFlakes
 Once you can draw one SnowFlake that is placed randomly on the screen, you are ready to create a bunch of them on the screen! Let's do this by creating an array of SnowFlake objects in Frame.java. Go towards the top of the JFrame class (where instance variables are typically located) and add the array.
 
@@ -158,7 +158,7 @@ Once you can draw one SnowFlake that is placed randomly on the screen, you are r
 ```
 You can also introduce another instance variable for the size of the array which can make resizing and playing around with the amount of snow much easier. 
 
-### Frame constructor
+### Frame.java - constructor
 Recall that when you declare and create an array of objects it will have null references! You will have to create the objects and place them in the array. This is done in the constructor of the Frame class so that the array is set before the JFrame is drawn. 
 
 #### for loop
@@ -169,7 +169,7 @@ Setup your for loop to iterate through the array of SnowFlake objects. Create a 
 			snow[i] = new SnowFlake();
 		}
 ```
-### Frame paint method
+### Frame.java - paint method
 While you have created the array of SnowFlake objects, nothing in Frame is using the objects to invoke the paint method of each object! We can do this in the Frame's paint method similar to how it's currently invoking the paint method of a singular SnowFlake object!
 		
 		//snow array traversal - you can use a traditional for-loop
