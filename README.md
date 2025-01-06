@@ -48,3 +48,36 @@ public class Frame extends JPanel implements ActionListener, MouseListener, KeyL
 ```
 ## SnowFlake.java
 This is an example object that contains a paint method that can be called/invoked in the Frame's paint method. This allows any additional types of objects you create to handle their own way to paint on the screen!
+```java
+public class SnowFlake
+{
+	//Instance variables - what properties does a Snowflake have?
+	
+	
+	/*
+	 * Draw your SnowFlake using simple Graphics method
+	 */
+	public void paint(Graphics pen) {
+		//set pen color - remember the default frame background is black
+		pen.setColor(Color.white); //the Color class has some premade colors
+		
+		//example code - replace with your code
+		pen.fillOval(0, 0, 50, 50);
+		
+		
+		
+	}
+	
+	/*
+	 * Optional: You can break up the action of updating variables from
+	 * the drawing (paint method).
+	 */
+	public void update() {
+		
+		
+	}
+	
+	
+}
+```
+The class setup can be organized further by breaking up any required variable updates from the painting. The method stub has been provided, but it is not necessary to use. 
