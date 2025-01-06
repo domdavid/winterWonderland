@@ -17,8 +17,8 @@ import javax.swing.Timer;
 public class Frame extends JPanel implements ActionListener, MouseListener, KeyListener {
 
 	//main JFrame properties/attributes
-	private int frameWidth = 900;
-	private int frameHeight = 600;
+	private static int frameWidth = 900;	//the size vars are static so you can use them outside of the class if needed such as for random #s
+	private static int frameHeight = 600;
 	private Color background = Color.black;
 	
 	//Add your objects or array variables here!
