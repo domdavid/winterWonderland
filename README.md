@@ -27,9 +27,10 @@ The provided repository is an Eclipse-based project. However, it is straightforw
 
 </details>
 
-## Frame.java - Runner File
 <details>
-<summary><h3>paint method</h3></summary>
+<summary><h2>Frame.java - Runner File</h2></summary>
+
+<h3>paint method</h3>
 The paint method in the Frame.java fill will handle painting any object or arrays of objects on the JFrame! You can change the frameWidth or frameHeight at the top of the file (instance vars) to change the overall size of the JFrame that you see. This file also has a main method so you can run the project using this file or the provided Runner file.  
 
 ```java
@@ -49,9 +50,7 @@ The paint method in the Frame.java fill will handle painting any object or array
 				
 	}
 ```
-</details>
 
-<details>
 <summary> <h3> Frame instance variables </h3></summary>
 The instance variable of the Frame class can be the place where you declare the objects you will draw on the screen! An example SnowFlake object is shown in the starter file.
 ```java
@@ -104,6 +103,7 @@ public class SnowFlake
 }
 ```
 The class setup can be organized further by breaking up any required variable updates from the painting. The method stub has been provided, but it is not necessary to use. 
+</details>
 
 # Get Started!
 ## Running the Project
