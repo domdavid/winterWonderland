@@ -85,3 +85,7 @@ The class setup can be organized further by breaking up any required variable up
 # Get Started!
 ## Running the Project
 Once you have imported the files into your IDE, you can run either the Runner or the Frame class. Both of these files have a main method to create an instance of the JFrame.
+## SnowFlake.java Updates
+### Instance Variables
+* Add instance variables to track the position of a SnowFlake object
+* Add an instance variable for the size of the object (you can have both width and height variables if you want)
