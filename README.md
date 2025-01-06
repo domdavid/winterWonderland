@@ -29,6 +29,7 @@ The paint method in the Frame.java fill will handle painting any object or array
 		flake.paint(pen);
 				
 	}
+```
 ### Frame instance variables
 The instance variable of the Frame class can be the place where you declare the objects you will draw on the screen! An example SnowFlake object is shown in the starter file.
 ```java
