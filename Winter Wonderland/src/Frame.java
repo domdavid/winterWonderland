@@ -22,7 +22,7 @@ public class Frame extends JPanel implements ActionListener, MouseListener, KeyL
 	private Color background = Color.black;
 	
 	//Add your objects or array variables here!
-	
+	SnowFlake flake = new SnowFlake();
 	
 	/*
 	 * Method for painting on the JFrame
@@ -35,7 +35,8 @@ public class Frame extends JPanel implements ActionListener, MouseListener, KeyL
 		pen.fillRect(0, 0, frameWidth, frameHeight);
 
 		
-		
+		//draw a snowFlake object
+		flake.paint(pen);
 		
 		
 		
