@@ -83,3 +83,5 @@ public class SnowFlake
 The class setup can be organized further by breaking up any required variable updates from the painting. The method stub has been provided, but it is not necessary to use. 
 
 # Get Started!
+## Running the Project
+Once you have imported the files into your IDE, you can run either the Runner or the Frame class. Both of these files have a main method to create an instance of the JFrame.
