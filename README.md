@@ -253,4 +253,6 @@ public class SnowFlake{
 }
 ```
 After altering your code, you should see some animation on the screen. 
+* What should you do with the y position once the object reaches the bottom of the screen?
+* What would you have to do if you want to add "wind" or some swaying in the x direction?
 
