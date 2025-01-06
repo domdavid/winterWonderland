@@ -4,8 +4,8 @@ This project provides a basic Java Swing setup that enables drawing directly on 
 ## Setup
 The provided repository is an Eclipse-based project. However, it is a straightforward setup so you should be able to get started with your IDE!
 * Java project files
-  * Frame.java
-  * SnowFlake.java
+  * Frame.java : This will act as the "world" class where you can add objects to paint on the JFrame
+  * SnowFlake.java : An example class that includes a paint method which will be called in the Frame.java paint method.
 * Installation
   * Eclipse: Import the project into Eclipse as a zip file by downloading the repository as a zip. Alternatively, you can clone the repository in Eclipse using the interface.
   * Non-Eclipse:
