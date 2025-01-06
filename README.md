@@ -120,6 +120,7 @@ Add a default constructor in SnowFlake.java that should initialize the instance 
 
 
 ```
+### paint method
 When you re-run the program, nothing should have changed so far! Why? The paint method for SnowFlake is using HARDCODED values for drawing the SnowFLake :). Update the paint method so that it is now using the instance variables you defined! Note that the example below might differ from yours since we could have named our variables differently. 
 ```java
 	/*
