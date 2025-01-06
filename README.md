@@ -2,6 +2,10 @@
 ![Screenshot](screeshot1.png)
 ## Introduction
 This project provides a basic Java Swing setup that enables drawing directly on a JFrame. It also includes a simple timer-based animation system that refreshes the frame, making it easy to create dynamic visual updates for basic animations.
+* Prerequisites:
+  * Knowledge of Objects and Writing Classes in Java
+  * Declaring and Creating 1D Arrays of primitives and objects in Java
+  * Traversing Arrays in Java
 ## Setup
 The provided repository is an Eclipse-based project. However, it is straightforward to set up, so you should be able to get started with your IDE!
 * Java project files
