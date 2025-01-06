@@ -8,4 +8,4 @@ The provided repository is an Eclipse-based project. However, it is a straightfo
   * SnowFlake.java : An example class that includes a paint method which will be called in the Frame.java paint method.
 * Installation
   * Eclipse: Import the project into Eclipse as a zip file by downloading the repository as a zip. Alternatively, you can clone the repository in Eclipse using the interface.
-  * Non-Eclipse:
+  * Non-Eclipse: Start your IDE with a basic Java project. Drag the Frame.java and SnowFlake.java files into the source folder as you would any Java class file. 
