@@ -157,3 +157,16 @@ Once you can draw one SnowFlake that is placed randomly on the screen, you are r
 	SnowFlake[] snow = new SnowFlake[numSnow];
 ```
 You can also introduce another instance variable for the size of the array which can make resizing and playing around with the amount of snow much easier. 
+
+### Frame constructor
+Recall that when you declare and create an array of objects it will have null references! You will have to create the objects and place them in the array. This is done in the constructor of the Frame class so that the array is set before the JFrame is drawn. 
+
+#### for loop
+Setup your for loop to iterate through the array of SnowFlake objects. Create a new SnowFlake each iteration and place them in the corresponding index.
+```java
+		//array of SnowFlake objects setup
+		for(int i = 0; i < snow.length; i++) {
+			snow[i] = new SnowFlake();
+		}
+```
+
