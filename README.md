@@ -53,7 +53,7 @@ public class Frame extends JPanel implements ActionListener, MouseListener, KeyL
 .
 ```
 ## SnowFlake.java
-This is an example object that contains a paint method that can be called/invoked in the Frame's paint method. This allows any additional types of objects you create to handle their own way to paint on the screen!
+This is an example java class that contains a paint method that can be called/invoked in the Frame class' paint method. This allows any additional types of objects you create to handle their own way to paint on the screen!
 ```java
 public class SnowFlake
 {
