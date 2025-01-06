@@ -286,7 +286,7 @@ public class SnowFlake{
 	}
 
 	public void paint(Graphics pen){
-		update(); //call update method before drawing
+		<mark> update(); //call update method before drawing </mark>
 
 		//additional code not shown
 	}
