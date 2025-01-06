@@ -3,7 +3,7 @@
 
 <details open>
 <summary> <h2>Introduction</h2></summary>
-This project provides a basic Java Swing setup that enables drawing directly on a JFrame. It also includes a simple timer-based animation system that refreshes the frame, making it easy to create dynamic visual updates for basic animations.<br>
+This project provides a basic Java Swing setup that enables drawing directly on a JFrame. It also includes a simple timer-based animation system that refreshes the frame, making it easy to create dynamic visual updates for basic animations.<br> <br>
  This project will have you apply your knowledge of the following:  <br>
  <ul> <li> Creating and using Objects (AP CSA - Unit 2) (Need practice? Review [here](https://studycs.org/practice/view/2/)) </li>
   <li>  Writing Classes (AP CSA - Unit 5)	(Need practice? Review [here](https://studycs.org/practice/view/5/)) </li>
