@@ -108,6 +108,7 @@ public class SnowFlake
 Add a default constructor in SnowFlake.java that should initialize the instance variables you just added! Randomize these properties so that each SnowFlake is somewhat unique and placed on a different section on the screen. Use the random formula you were taught in class to generate a reasonable random number for each attribute. It's provided below if you have forgotten. 
 * int randomValue = (int)(Math.random()*(max-min+1))+min; //random int between min and max (inclusive)
 ```java
+	/* The constructor initializes the properties of the object */
 	public SnowFlake() {
 		
 		x 	= ???;
