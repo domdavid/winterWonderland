@@ -186,4 +186,39 @@ Now that you have set up SnowFlake objects, expand on your knowledge of setting 
 ####
 Each class will need a paint method similar to SnowFlake. The instance variables can be different.
 ####
-You might need additional drawing methods for more complex shapes. The one used in SnowFlake is simply drawing an oval :). You may need to play around with fillPolygon. Check out this [example](https://www.educative.io/answers/what-is-fillpolygon-in-java).
+You might need additional [drawing methods](https://www.javatpoint.com/Graphics-in-swing) for more complex shapes. The one used in SnowFlake is simply drawing an oval :). You may need to play around with fillPolygon. Check out this [example](https://www.educative.io/answers/what-is-fillpolygon-in-java).
+### Example - Additional class
+```java
+public class Tree
+{
+
+	//a simple Tree drawn with a triangle :)
+	private int[] x;
+	private int[] y;
+	
+	
+	public Tree() {
+		//Example hard-coded position of a Tree object
+		//a Triangle on the upper-left corner!
+		x = new int[]{
+				0, 50, 100
+			};
+		
+		y = new int[]{
+				100, 0, 100
+			}; 
+		
+	}	
+	
+	public void paint(Graphics pen) {
+		
+		pen.setColor(Color.green);
+		pen.fillPolygon(x, y, x.length);
+		
+		
+	}
+	
+}
+
+```
+
