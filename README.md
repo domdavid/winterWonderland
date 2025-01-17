@@ -22,7 +22,7 @@ The provided repository is an Eclipse-based project. However, it is straightforw
 
 * **Installation**  
   * **Eclipse**: Download the repository as a zip file to import the project into Eclipse. Alternatively, you can clone the repository in Eclipse using the interface.  
-  * **Non-Eclipse**: Start your IDE with a basic Java project. Drag the `Frame.java` and `SnowFlake.java` files into the source folder as you would any Java class file. [Here](https://drive.google.com/file/d/1UmBmYMrCJ244yKDSnVXjxmzDOs83DXGQ/view?usp=sharing) is a link to the java files.
+  * **Non-Eclipse**: Start your IDE with a basic Java project. Drag the `Frame.java` and `SnowFlake.java` files into the source folder like any Java class file. [Here](https://drive.google.com/file/d/1UmBmYMrCJ244yKDSnVXjxmzDOs83DXGQ/view?usp=sharing) is a link to the java files.
   * Replit Project: https://replit.com/@DomingoDavid/Winter-Wonderland?v=1 
   * Run the project with `Runner.java` or `Frame.java`. You should see a JFrame with one oval drawn on the screen. 
 
@@ -70,7 +70,7 @@ public class Frame extends JPanel implements ActionListener, MouseListener, KeyL
 </details>
 
 ## SnowFlake.java
-This is an example java class that contains a paint method that can be called/invoked in the Frame class' paint method. This allows any additional types of objects you create to handle their own way to paint on the screen!
+This is an example java class that contains a paint method that can be called/invoked in the Frame class' paint method. This allows any additional types of objects you create to handle their own way of painting on the screen!
 ```java
 public class SnowFlake
 {
@@ -78,7 +78,7 @@ public class SnowFlake
 	
 	
 	/*
-	 * Draw your SnowFlake using simple Graphics method
+	 * Draw your SnowFlake using a simple Graphics method
 	 */
 	public void paint(Graphics pen) {
 		//set pen color - remember the default frame background is black
@@ -186,7 +186,7 @@ You can also introduce another instance variable for the size of the array which
 Recall that when you declare and create an array of objects it will have null references! You will have to create the objects and place them in the array. This is done in the constructor of the Frame class so that the array is set before the JFrame is drawn. 
 
 #### for loop
-Setup your for loop to iterate through the array of SnowFlake objects. Create a new SnowFlake each iteration and place them in the corresponding index.
+Setup your for loop to iterate through the array of SnowFlake objects. Create a new SnowFlake for each iteration and place them in the corresponding index.
 ```java
 	//Frame Constructor
 	public Frame(){
@@ -299,5 +299,5 @@ After altering your code, you should see some animation on the screen.
 * What would you have to do if you want to add "wind" or some swaying in the x direction?
 
 Why does this animate the snow?
-There is a Timer object in the project setup that repaints the screen every ~16milliseconds. If you update any of the properties of the SnowFlake objects or any object, you will see it reflected on the JFrame if they affect the drawing. In our case, if you update the position then the SnowFlake objects are redrawn at the updated position which show up as animation.
+There is a Timer object in the project setup that repaints the screen every ~16 milliseconds. If you update any of the properties of the SnowFlake objects or any object, you will see it reflected on the JFrame if they affect the drawing. In our case, if you update the position then the SnowFlake objects are redrawn at the updated position which shows up as animation.
 </details>
